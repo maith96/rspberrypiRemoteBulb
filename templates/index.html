@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+  
+</head>
+<body>
+  
+    <header class="text-3xl font-bold text-center p-5">
+        Control Panel
+    </header>
+    <main class="p-5 mt-10">
+        <div class="text-center mb-20">
+            <p>Bulb is {{bulb_state}}</p>
+        </div>
+        <div class="text-center">
+            <a href="/system/on" class="bg-green-600 px-10 py-5 rounded text-white font-bold text-xl">Bulb On</a>
+        </div>
+        
+        <div class="text-center mt-10">
+            <a href="/system/off"  class="bg-red-600 px-10 py-5 text-white font-bold rounded text-xl">Bulb Off</a>
+        </div>
+        
+    </main>
+</body>
+</html>
